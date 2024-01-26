@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.area-limite {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.texto-azul {
+    color: #2f86d6;
+}
+
+header{
+    padding: 35px 0;
+}
+
+header .logo {
+    display: flex;
+    float: left;
+}
+
+.img-logo {
+    width: 80px;
+}
+
+.logo div {
+    margin-left: 15px;
+}
+
+.logo div h1 {
+    font-size: 32px;
+}
+
+.logo div p {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.links-topo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.links-topo a {
+    text-decoration: none;
+    color: #233032;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.banner {
+    background-color: #2f86d6;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textos-banner {
+    color: #ffffff;
+    width: 470px;
+    margin: 8% 0;
+}
+
+.textos-banner h2 {
+    margin: 18px 0;
+    font-size: 28px;
+}
+
+.textos-banner p {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+
+.img-banner {
+    width: 50%;
+    max-width: 450px;
+    min-width: 350px;
+}
+
+.anuncio1 {
+    background-color: #233032;
+}
+
+.anuncio2 {
+    background-color: #2f86d6;
+}
+
+.anuncio1 > div,
+.anuncio2 > div{
+    color: #ffffff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textos-anuncio {
+    width: 600px;
+}
+
+.btn-anuncio1 {
+    background-color: #2f86d6;
+}
+
+.btn-anuncio2 {
+    background-color: #233032;
+}
+
+.btn-anuncio1,
+.btn-anuncio2 {
+    width: 245px;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-anuncio1 a,
+.btn-anuncio2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-anuncio1 img,
+.btn-anuncio2 img{
+    width: 20px;
+    height: 20px;
+}
+
+#informacoes {
+    padding: 100px 0;
+}
+
+#informacoes > div{
+    display: block;
+}
+
+#informacoes div h2{
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.boxes-informacoes {
+    display: flex;
+}
+
+.box-infor {
+    width: 33.3%;
+    text-align: center;
+}
+
+.box-infor p {
+    width: 98%;
+    margin: 15px auto;
+}
+
+.img-box {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#planos {
+    background-color: #f6f6f6;
+    padding: 100px 0;
+}
+
+#planos > div{
+    display: block;
+}
+
+#planos div h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 50px 10px rgba(47, 134, 214, 1);
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+th {
+    padding: 20px 0;
+}
+
+th p {
+    width: 50%;
+    font-size: 12px;
+    color: #a8a4a4;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+td {
+    padding: 15px 0;
+    font-weight: 500;
+}
+
+th, td {
+    border: 2px solid #f1f3f7;
+}
+
+.fundo-opaco {
+    background-color: #f6f6f6;
+}
+
+.img-tabela {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.rodape {
+    padding: 70px 0;
+}
+
+.rodape > div{
+    display: block;
+}
+
+.posicao-logo .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textos-contato {
+    text-align: center;
+    margin: 50px auto 0 auto;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.textos-contato p {
+    line-height: 36px;
+}
+
+.idt-dev {
+    background-color: #f1f3f7;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    padding: 20px 0;
+}
