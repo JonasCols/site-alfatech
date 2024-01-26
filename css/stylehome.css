@@ -233,11 +233,11 @@ th, td {
     margin: 0 auto;
 }
 
-.rodape {
+.contato {
     padding: 70px 0;
 }
 
-.rodape > div{
+.contato > div{
     display: block;
 }
 
@@ -247,8 +247,13 @@ th, td {
     justify-content: center;
 }
 
+.metodo-contato{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .textos-contato {
-    text-align: center;
     margin: 50px auto 0 auto;
     font-weight: 600;
     font-size: 15px;
@@ -256,6 +261,62 @@ th, td {
 
 .textos-contato p {
     line-height: 36px;
+}
+
+.textos-contato p a{
+    text-decoration: none;
+    color:#000;
+}
+
+.textos-contato ul{
+    margin-top: 20px;
+}
+
+.textos-contato ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.textos-contato ul li a{
+    text-decoration: none;
+}
+
+.textos-contato ul li img{
+    height: 30px;
+}
+
+.formulario{
+    margin-top: 50px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    margin-bottom: 8px;
+    width: 320px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #2f86d6;
+    color: #f1f3f7;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #4162bc;
+}
+
+form input:focus,
+form textarea:focus{
+    outline-color: #2f86d6;
 }
 
 .idt-dev {
